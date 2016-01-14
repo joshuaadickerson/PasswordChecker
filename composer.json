@@ -1,0 +1,25 @@
+{
+  "name": "joshuaadickerson/passwordchecker",
+  "description": "Check passwords from numerous libraries and packages with one call",
+  "type": "libfary",
+  "keywords": ["password"],
+  "license": "BSD-3",
+  "authors": [
+	{
+	  "name": "Joshua Dickerson",
+	  "email": "joshua.a.dickerson@gmail.com"
+	}
+  ],
+  "support": {
+	"issues": "https://github.com/joshuaadickerson/PasswordChecker/issues",
+	"wiki": "https://github.com/joshuaadickerson/PasswordChecker/wiki"
+  },
+  "require-dev": {
+	"phpunit/phpunit": "4.6.*"
+  },
+  "autoload": {
+	"psr-4": {
+	  "PasswordChecker\\": "PasswordChecker/"
+	}
+  }
+}
